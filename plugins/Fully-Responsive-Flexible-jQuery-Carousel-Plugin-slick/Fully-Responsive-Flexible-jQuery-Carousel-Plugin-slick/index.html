@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Slider</title>
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css?v2022">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css?v2022">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+  <script src="./slick/slick.js?v2022" type="text/javascript" charset="utf-8"></script>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    * {
+      font-family: 'Inter';
+    }
+
+    body {
+      background-color: thistle;
+      line-height: 1.6;
+      color: #fff;
+    }
+
+    .container {
+      margin: 50px auto;
+      max-width: 960px;
+    }
+
+    .slider {
+      width: 100%;
+      margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      height: 200px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .7;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <h1
+    style="color: white; background-color:black; text-align:center; margin-top: 100px;font-weight: bold;font-size: 50px;">
+    Center Slider ..!</h1>
+
+  <div class="container">
+    <section class="center slider">
+      <div>
+        <img src="https://i.pinimg.com/originals/6b/c3/d5/6bc3d55992cf30b7142ef00ae30713bc.jpg" alt="">
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1567878673942-be055fed5d30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+          alt="">
+      </div>
+      <div>
+        <img src="https://i.pinimg.com/originals/2a/cb/cb/2acbcbcc27f68b3afbcdb666062249c7.png" alt="">
+      </div>
+      <div>
+        <img src="https://wallpaperaccess.com/full/2557730.jpg" alt="">
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/850/1000/koenl3k0/poster/z/k/i/medium-radha-krishna-hd-wallpaper-on-art-paper-poster2649-original-imag2v4esfwm2kz3.jpeg?q=90"
+          alt="">
+      </div>
+      <div>
+        <img
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/54f97a69-6831-4615-87e6-9da0eb00382a/ddwefxh-6b42b723-13c2-4520-8fcd-21e12748967c.jpg/v1/fill/w_1280,h_800,q_75,strp/swarajyarakshk_sambhaji_maharaj_by_maheshmg_ddwefxh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU0Zjk3YTY5LTY4MzEtNDYxNS04N2U2LTlkYTBlYjAwMzgyYVwvZGR3ZWZ4aC02YjQyYjcyMy0xM2MyLTQ1MjAtOGZjZC0yMWUxMjc0ODk2N2MuanBnIiwiaGVpZ2h0IjoiPD04MDAiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC81NGY5N2E2OS02ODMxLTQ2MTUtODdlNi05ZGEwZWIwMDM4MmFcL21haGVzaG1nLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.tB87XtW1S1epP-nminFPOq3H99hm0NVNJyMBBir7h6w"
+          alt="">
+      </div>
+      <div>
+        <img
+          src="https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/w/z/g/small-sita-ram-poster-hd-god-religious-poster-for-pooja-room-original-imaghdfdeevvrgkv.jpeg?q=20"
+          alt="">
+      </div>
+      <div>
+        <img src="https://i.pinimg.com/originals/9e/04/91/9e0491864bc709ab4dcb9d9680bc1a33.jpg" alt="">
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1567591370504-80142b28f1c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=408&q=80"
+          alt="">
+      </div>
+    </section>
+  </div>
+
+  <script type="text/javascript">
+    $(document).on('ready', function () {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 5
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
